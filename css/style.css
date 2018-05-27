@@ -55,7 +55,7 @@ h5 {
 h6 {
 	color:#000;
 	font-size:14px;
-	line-height:18px;
+	line-height:32px;
 	word-spacing:3px;
 }
 a {
@@ -73,7 +73,8 @@ a:hover {
 
 .section-title {
 	text-align:center;
-	padding-bottom:58px;
+	padding-bottom: 28px;
+/*	background: url(../img/sheet.png) no-repeat bottom;*/
 }
 .section-title h2 {
 	margin:0;
@@ -84,7 +85,7 @@ a:hover {
 	padding:0 20px 20px;
 }
 .section-title p {
-	font-size:18px;
+	font-size: 21px;
 	color:#000;
 	line-height:31px;
 	margin:0;
@@ -180,11 +181,11 @@ ul.social > li a.dribbble:hover {
 .logo{
 	position:absolute;
 	left:537px;
-	top:6%;
+	top:5%;
 	width:100%;
 	z-index:11;
 	text-align: center;
-	font-size: 15px;
+	font-size: 18px;
   color: #eee;
   font-family: Raleway;
 }
@@ -923,15 +924,16 @@ ul.social > li a.dribbble:hover {
     height: 304px;
     width: 304px;
 	background: url(../img/portfolio-photo/portfolio-item-hover.png) no-repeat;
-    opacity: 0;
+    opacity: 1;
 	-webkit-border-radius: 152px;
 	-moz-border-radius: 152px;
 	-o-border-radius: 152px;
 	border-radius: 152px;
 	text-align:center;
+	background-color: rgba(0, 0, 0, 0.5);
 }
-.photo:hover .portfolio-item-hover {
-    opacity: 1;
+.photo:hover .portfolio-item-hover:hover {
+    opacity: 0;
 }
 .photo a {
     display: block;
@@ -956,7 +958,13 @@ ul.social > li a.dribbble:hover {
 }
 .photo h6 {
 	margin:0;
-	padding:185px 50px 0;
+	padding:135px 50px 0;
+	color: white;
+	font-family: Raleway;
+	font-size: 38px;
+}
+.photo .sanango, .photo .ilex {
+	padding-top: 125px;
 }
 .photo p {
 	margin:0;
@@ -988,7 +996,7 @@ ul.social > li a.dribbble:hover {
 }
 .contact-us-box,
 .respond-box {
-	padding:130px 0 55px;
+	padding: 83px 0 55px;
 }
 .contact-us-box {
 	background:url(../img/contact-us-box.jpg) repeat center fixed;
@@ -1039,6 +1047,7 @@ ul.social > li a.dribbble:hover {
 }
 .send-message-form form {
 	margin:0;
+	text-align: left;
 }
 .message-textarea {
 	position:relative;
@@ -1062,9 +1071,9 @@ ul.social > li a.dribbble:hover {
 	padding:0 10px;
 }
 .send-message-form textarea {
-	height:120px;
+	height: 251px;
 	resize: none;
-	width:93%;
+	width: 128%;
 	padding:10px 10px;
 }
 .send-message-form textarea:focus, 
