@@ -180,9 +180,8 @@ ul.social > li a.dribbble:hover {
 
 .logo{
 	position:absolute;
-	left:537px;
+	left:86%;
 	top:5%;
-	width:100%;
 	z-index:11;
 	text-align: center;
 	font-size: 18px;
