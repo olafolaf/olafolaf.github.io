@@ -73,7 +73,6 @@ a:hover {
 
 .section-title {
 	text-align:center;
-	padding-bottom: 28px;
 /*	background: url(../img/sheet.png) no-repeat bottom;*/
 }
 .section-title h2 {
@@ -767,12 +766,11 @@ ul.social > li a.dribbble:hover {
 
 /* Portfolio
 -------------------------------------------------- */
-.portfolio {
-	background:url(../img/section-arrow.png) no-repeat top center;
-}
+
 .portfolio-box {
-	padding:130px 0 0px 0;
+	padding:35px 0 0px 0;
 	background:url(../img/portfolio.png) no-repeat top center;
+	padding-bottom: 100px;
 }
 
 .portfolio-slider-row {
@@ -906,6 +904,20 @@ ul.social > li a.dribbble:hover {
 	-o-border-radius: 152px;
 	border-radius: 152px;
 }
+.photo a {
+	display: block;
+}
+.modal {
+	width: 87%;
+	left: 28%;
+}
+.modal p {
+	font-size: 16px;
+}
+.modal-body img {
+	float: left;
+	margin-right: 10px;
+}
 .photo img {
 	display:block;
     height: 300px;
@@ -934,13 +946,7 @@ ul.social > li a.dribbble:hover {
 .photo:hover .portfolio-item-hover:hover {
     opacity: 0;
 }
-.photo a {
-    display: block;
-    height: 49px;
-    width: 48px;
-    position: absolute;
-    top: 34%;
-}
+
 .photo a.info {
 	background:url(../img/portfolio-photo/zoom.png) no-repeat left top;
     left: 33%;
@@ -989,7 +995,6 @@ ul.social > li a.dribbble:hover {
 -------------------------------------------------- */
 .contact-us,
 .respond {
-	margin:100px 0 0;
 	background:url(../img/contact-us-bottom-shadow.png) no-repeat bottom center;
 	padding-bottom:104px;
 }
