@@ -1022,7 +1022,7 @@ ul.social > li a.dribbble:hover {
 }
 
 .send-message-form-span {
-	width:600px;
+	width:700px;
 }
 .send-message-form-box,
 .contact-info-box {
@@ -1077,8 +1077,9 @@ ul.social > li a.dribbble:hover {
 .send-message-form textarea {
 	height: 251px;
 	resize: none;
-	width: 128%;
+	width: 100%;
 	padding:10px 10px;
+	box-sizing: border-box;
 }
 .send-message-form textarea:focus, 
 .send-message-form input[type="text"]:focus, 
@@ -1882,7 +1883,11 @@ div.comments-list:nth-child(even) {
 	}
 
 }
-
+@media (max-width: 1200px) {
+	.portfolio-photo-row {
+		padding: 0;
+	}
+}
 /* Portrait phones
 ------------------------- */
 @media (max-width: 320px) {
