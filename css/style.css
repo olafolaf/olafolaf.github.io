@@ -185,7 +185,8 @@ ul.social > li a.dribbble:hover {
 	text-align: center;
 	font-size: 18px;
   color: #eee;
-  font-family: Raleway;
+	font-family: Raleway;
+	line-height: 20px;
 }
 
 /* Home Slider
@@ -1571,7 +1572,8 @@ div.comments-list:nth-child(even) {
 		position:static;
 	}
 	.logo {
-		top:12%;
+		top:8%;
+		line-height: 22px;
 	}
 	#homeCarousel.carousel .item {
 		height: 400px;
@@ -1704,13 +1706,18 @@ div.comments-list:nth-child(even) {
 		position:static;
 	}
 	.logo {
-		top:12%;
+		top:2%;
+		left: 84%;
+		font-size: 12px;
+		line-height: 13px;
 	}
 	#homeCarousel.carousel .item {
-		height: 400px;
+		height: 266px;
 	}
 	#homeCarousel .carousel-caption {
-		padding-top:200px;
+		padding-top:117px;
+		padding-bottom: 83px;
+		line-height: 16px;
 	}
 	#homeCarousel .carousel-control {
 		display:none;
