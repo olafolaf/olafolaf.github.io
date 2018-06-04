@@ -910,7 +910,7 @@ ul.social > li a.dribbble:hover {
 }
 .modal {
 	width: 87%;
-	left: 28%;
+	left: 6%;
 }
 .modal p {
 	font-size: 16px;
@@ -1799,9 +1799,10 @@ div.comments-list:nth-child(even) {
 	.send-message-form textarea,
 	.respond .send-message-form input {
 		display:block;
-		width:94%;
-		margin:0 auto;
+		width:100%;
+		margin:0;
 		margin-bottom:10px;
+		box-sizing: border-box;
 	}
 	.contact-info-span {
 		margin:0 auto;
@@ -1938,4 +1939,5 @@ div.comments-list:nth-child(even) {
 		right: 30%;
 	}
 
-}
+
+
